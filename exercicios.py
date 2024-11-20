@@ -27,9 +27,11 @@ number_02 = int(input("Please enter second value: "))
 result = (number_01 // number_02)
 print (f"The result is: {result}")
 
-
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
+number = int(input("Please enter value: "))
+square = number ** 2
+print(f"The result is: {square}")
 
 # #### Números de Ponto Flutuante (`float`)
 
