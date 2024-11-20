@@ -58,6 +58,11 @@ result = base ** exponent
 print(f"The result is: {result}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+celsius = float(input("Please enter the temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"The result is: {fahrenheit}")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 # #### Strings (`str`)
