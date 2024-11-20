@@ -65,6 +65,11 @@ print(f"The result is: {fahrenheit}")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
+radius = float(input("Please enter the radius of the circle: "))
+pi_value = 3.14
+area = pi_value * radius ** 2
+print(f"The result is: {area}")
+
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
