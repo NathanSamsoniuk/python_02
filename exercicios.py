@@ -69,7 +69,7 @@ print(f"The result is: {fahrenheit}")
 
 radius = float(input("Please enter the radius of the circle: "))
 area = math.pi * radius ** 2
-print(f"The result is: {area}")
+print(f"The result is: {area:.2f}")
 
 # #### Strings (`str`)
 
