@@ -11,7 +11,7 @@ print (f"The result is: {result}")
 
 number = int(input("Please enter value: "))
 remainder = number % 5
-print(f"The remainder is: {remainder}")
+print(f"The result is: {remainder}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
@@ -21,6 +21,13 @@ result = (number_01 * number_02)
 print (f"The result is: {result}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
+number_01 = int(input("Please enter first value: "))
+number_02 = int(input("Please enter second value: "))
+result = (number_01 // number_02)
+print (f"The result is: {result}")
+
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 
