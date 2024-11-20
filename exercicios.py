@@ -51,6 +51,12 @@ result = sum/2
 print (f"The result is: {result}")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+base = float(input("Please enter the base: "))
+exponent = float(input("Please enter the exponent: "))
+result = base ** exponent
+print(f"The result is: {result}")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
