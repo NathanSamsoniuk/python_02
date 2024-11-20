@@ -43,6 +43,13 @@ result = (number_01 + number_02)
 print (f"The result is: {result}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+number_01 = float(input("Please enter first value: "))
+number_02 = float(input("Please enter second value: "))
+sum_values = (number_01 + number_02)
+result = sum/2
+print (f"The result is: {result}")
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
