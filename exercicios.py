@@ -36,6 +36,12 @@ print(f"The result is: {square}")
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+number_01 = float(input("Please enter first value: "))
+number_02 = float(input("Please enter second value: "))
+result = (number_01 + number_02)
+print (f"The result is: {result}")
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
